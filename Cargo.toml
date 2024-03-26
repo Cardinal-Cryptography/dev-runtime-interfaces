@@ -1,6 +1,11 @@
 [package]
 name = "aleph-dev-runtime-interfaces"
 version = "0.1.0"
+authors = ["Cardinal", "Aleph Zero Foundation"]
+edition = "2021"
+homepage = "https://alephzero.org"
+repository = "https://github.com/Cardinal-Cryptography/dev-runtime-interfaces"
+publish = false
 
 [lib]
 path = "lib.rs"
