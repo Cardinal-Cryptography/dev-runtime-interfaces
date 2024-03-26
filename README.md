@@ -14,7 +14,7 @@ git clone https://github.com/Cardinal-Cryptography/dev-runtime-interfaces
 sp-runtime-interface = { git = "https://github.com/Cardinal-Cryptography/polkadot-sdk.git", branch = "my-experimental-branch", default-features = false }
 ```
 
-3. Add the runtime interfaces to your **node** (enabling the features you need with features) in the node's `Cargo.toml`, e.g.:
+3. Add the runtime interfaces to your **node** (enabling the interfaces you need with features) in the node's `Cargo.toml`, e.g.:
 ```toml
 aleph-dev-runtime-interfaces = { path = "local/path/to/the/clone", features = ["std", "now"] }
 ```
