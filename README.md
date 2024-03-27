@@ -30,7 +30,7 @@ impl sc_executor::NativeExecutionDispatch for ExecutorDispatch {
 
 5. Add the runtime interfaces to your **runtime** (enabling the features you need with features) in the target pallets' `Cargo.toml`, e.g.:
 ```toml
-aleph-dev-runtime-interfaces = { path = "local/path/to/the/clone", default-features = false }
+aleph-dev-runtime-interfaces = { path = "local/path/to/the/clone", default-features = false, features = ["now"] }
 ```
 
 6. Use the runtime interfaces in your runtime:
