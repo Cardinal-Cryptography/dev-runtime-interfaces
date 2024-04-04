@@ -12,7 +12,7 @@ path = "lib.rs"
 
 [dependencies]
 # The fundamental dependency for defining runtime interfaces. Change its git/registry source according to your needs.
-sp-runtime-interface = { git = "https://github.com/Cardinal-Cryptography/polkadot-sdk.git", branch = "aleph-v1.2.0", default-features = false }
+sp-runtime-interface = { git = "https://github.com/Cardinal-Cryptography/polkadot-sdk.git", branch = "old-timings", default-features = false }
 
 chrono = { version = "0.4.35", default-features = false, features = ["now"], optional = true }
 
